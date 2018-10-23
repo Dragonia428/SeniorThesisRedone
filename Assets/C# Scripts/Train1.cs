@@ -117,23 +117,7 @@ public class Train1 : MonoBehaviour {
         }
 	}
 
-	IEnumerator RestartLevel() {
-		yield return new WaitForSeconds (20f);
-		SceneManager.LoadScene ("demo");
-	}
 
-	IEnumerator DisableTrain(){
-		yield return new WaitForSeconds (30f);
-		foreach (Light light in lights) {
-			light.enabled = false;
-		}
-		foreach (Renderer r in GetComponentsInChildren<Renderer>()) {
-			r.enabled = false;
-		}
-		this.transform.position = startPos.position;
-		anim.SetTrigger ("reset");
-		mainPASystem.volume = 1;
-	}
 
 	
 		
