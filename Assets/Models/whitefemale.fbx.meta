@@ -149,6 +149,7 @@ ModelImporter:
     13700008: o4saken_curly01Mesh
     13700010: shoes03Mesh
     13700012: whitefemaleMesh
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -204,8 +205,8 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
-    tangentImportMode: 3
+    normalImportMode: 0
+    tangentImportMode: 0
     normalCalculationMode: 4
   importAnimation: 0
   copyAvatar: 0
